@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* font-family: "Roboto", serif; */
+/* font-family: "Oswald", serif; */
+/* font-family: "Bevan", serif; */
+
+body {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-primary {
+  background-color: #006200;
+  color: #fff;
+}
+
+/**==========================
+    Navigation Section Start
+============================*/
+
+.navbar {
+  box-shadow: 5px 5px 10px #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo a img {
+  width: 60px;
+}
+
+.logo a h2 {
+  font-family: "Bevan", serif;
+  font-size: 35px;
+  color: #006200;
+}
+
+.mobile-menu {
+  display: none;
+  border-radius: 10px;
+}
+.mobile-menu i {
+  font-size: 30px;
+  color: #006200;
+  padding: 5px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+/** menu **/
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Oswald", serif;
+  width: 100%;
+}
+
+.menu .menu-item {
+  color: #000;
+  padding: 15px;
+  font-weight: 500;
+  transition: 0.5s all ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu .menu-item:hover,
+.menu .menu-item.active {
+  background-color: #006200;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown i {
+  margin-left: 5px;
+}
+
+.dropdown > .menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.submenu {
+  position: absolute;
+  visibility: hidden;
+  width: 80%;
+  left: 20%;
+  background-color: #01bc77;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.submenu a {
+  padding: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.submenu a:hover {
+  background-color: #006200;
+  color: #fff;
+}
+
+.pad-down {
+  transform: translateY(-75px);
+  transition: 0.6s all ease;
+  opacity: 0;
+}
+
+.dropdown:hover .submenu {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.navigation .btn-menu {
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Oswald", serif;
+  display: flex;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+}
