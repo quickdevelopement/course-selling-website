@@ -9,6 +9,11 @@
   .toggle{
     display: inline-flex;
   }
+  .btn{
+    margin-left: 0;
+  padding: 5px;
+  font-size: 12px;
+  }
 
 }
 
@@ -22,6 +27,11 @@
   }
   .mobile-menu{
     display: block
+  }
+  .btn{
+    margin-left: 0;
+    padding: 5px;
+    font-size: 12px;
   }
 }
 
@@ -74,7 +84,31 @@
   top: 100%;
 }
 
+
+.btn{
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 14px;
 }
+.slideItem{
+  height: 300px;
+}
+
+.hero-content h2{
+  font-size: 30px;
+
+}
+.best-course{
+  padding: 8px 12px;
+  margin: 8px 0;
+}
+.hero-content p{
+  font-size: 15px;
+}
+
+
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -93,6 +127,27 @@
     width: 170px;
     font-size: 18px;
   
+  }
+  .btn{
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .slideItem{
+    height: 350px;
+  }
+
+  .hero-content h2{
+    font-size: 35px;
+  
+  }
+  .best-course{
+    padding: 10px 15px;
+    margin: 10px 0;
+  }
+  .hero-content p{
+    font-size: 16px;
   }
 }
 
@@ -114,5 +169,26 @@
     width: 200px;
     font-size: 20px;
   
+  }
+
+  .btn{
+    margin-left: 8px;
+    padding: 18px;
+    font-size: 18px;
+  }
+  .slideItem{
+    height: 400px;
+  }
+
+  .hero-content h2{
+    font-size: 45px;
+  
+  }
+  .best-course{
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  .hero-content p{
+    font-size: 18px;
   }
 }
