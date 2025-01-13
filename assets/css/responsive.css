@@ -33,6 +33,10 @@
     padding: 5px;
     font-size: 12px;
   }
+
+  .about .section-title h2{
+    font-size: 40px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -106,6 +110,36 @@
   font-size: 15px;
 }
 
+
+/* about section */
+.about .section-title {
+  text-align: left;
+}
+
+.about .section-title h4::before{
+  width: calc(100% + 35px);
+  left: 0px;
+}
+
+.about .section-title h4::after{
+  width: calc(100% + 60px);
+  left: 0px;
+}
+
+.about .section-title h2{
+  font-size: 50px;
+}
+
+.about .about-content p{
+  font-size: 18px;
+  padding:20px 5px
+}
+.about .about-content .about-list li{
+  font-size: 18px;
+}
+.about-content .btn-group{
+  text-align: left;
+}
 
 }
 

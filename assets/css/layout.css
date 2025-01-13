@@ -3,10 +3,15 @@
   margin: 0 auto;
   /* padding: 0 20px; */
 }
-
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  float: left;
   padding: 15px;
   box-sizing: border-box;
 }

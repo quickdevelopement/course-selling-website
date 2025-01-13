@@ -13,6 +13,10 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+  height: 100%;
+}
 .section-padding{
   padding: 50px 0
 }
@@ -42,6 +46,10 @@ a {
 .btn-master{
   background-color: #01cb77;
   border: 2px solid #01cb77;
+}
+
+.color-primary {
+  color: #01bc77;
 }
 
 /**==========================
@@ -311,4 +319,129 @@ a {
 
 /**==========================
     slider Section End
+============================*/
+
+/**==========================
+    Service Section End
+============================*/
+.service-item{
+  text-align: center;
+  background-color: #dcfff3db;
+  transform:translateY(0px);
+  transition: 0.5s all ease;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+
+.service-item i{
+  font-size: 70px;
+  color: #01cb77;
+  padding: 10px;
+}
+
+.service-item h4{
+  padding: 10px 0;
+  font-size: 20px;
+  color: green;
+  font-weight: 800;
+}
+
+.service-item p{
+  font-size: 16px;
+  padding: 0px 30px 25px;
+  color: #026d49;
+}
+.service-item:hover{
+  background-color: #01cb77;
+  transform: translateY(-20px);
+}
+
+.service-item:hover h4, .service-item:hover p, .service-item:hover i{
+  color: #fff;
+}
+/**==========================
+    Service Section End
+============================*/
+
+/**==========================
+    About Section Start
+============================*/
+.section-title{
+  text-align: center;
+}
+
+.section-title h4{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #01bc77;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Oswald', serif;
+
+}
+
+.section-title h4::before{
+  position: absolute;
+  content: "";
+  width: calc(100% + 80px);
+  height: 2px;;
+  top: 4px;
+  left: -40px;
+  z-index: -1;
+  background-color: #01bc77;
+  
+}
+
+.section-title h4::after{
+  position: absolute;
+  content: "";
+  width: calc(100% + 120px);
+  height: 2px;
+  bottom: 5px;
+  left: -60px;
+  z-index: -1;
+  background-color: #01bc77;
+}
+
+.section-title h2{
+  font-size: 40px;
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  color: #01bc77;
+  margin: 20px 0;
+
+}
+
+.about-content p{
+  font-size: 16px;
+  color: #004725;
+  padding: 15px 5px;
+  font-family: "Roboto", serif;
+}
+
+.about-content ul {
+  list-style: none;
+  margin: 0px;
+}
+.about-list li i{
+  padding-right: 5px;
+}
+.about-content li{
+  padding: 5px 0;
+}
+
+.about-content .btn{
+  padding: 10px 15px;
+  margin: 5px 0;
+  text-align:center;
+}
+
+.about-content .btn-group{
+  text-align: center;
+}
+/**==========================
+    Service Section End
 ============================*/
