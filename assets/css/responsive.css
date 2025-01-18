@@ -141,6 +141,18 @@
   text-align: left;
 }
 
+.img-4-h{
+  height: 350px;
+}
+
+.cat-content.cat-content-sm{
+  width: 140px;
+  height: 50px;
+}
+
+.cat-content.cat-content-sm h4{
+  font-size: 20px;
+}
 }
 
 
@@ -183,6 +195,18 @@
   .hero-content p{
     font-size: 16px;
   }
+
+  .img-4-h{
+    height: 450px;
+  }
+  .cat-content.cat-content-sm{
+    width: 200px;
+    height: 55px;
+  }
+  
+  .cat-content.cat-content-sm h4{
+    font-size: 25px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -224,5 +248,19 @@
   }
   .hero-content p{
     font-size: 18px;
+  }
+
+  /* category */
+  .img-4-h{
+    height: 620px;
+  }
+
+  .cat-content{
+    width: 250px;
+    height: 70px;
+  }
+  
+  .cat-content h4{
+    font-size: 25px;
   }
 }

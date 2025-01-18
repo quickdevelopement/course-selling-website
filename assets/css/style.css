@@ -443,5 +443,51 @@ img {
   text-align: center;
 }
 /**==========================
-    Service Section End
+    about Section End
+============================*/
+
+/**==========================
+    Catregory Section Start
+============================*/
+.category-item{
+  position: relative;
+}
+
+.category-item .cat-content{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  right: 0;bottom: 4px;background-color: #c7f8dc;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 5px 5px 0px 5px;
+  text-align: center;
+}
+.cat-content h4{
+  font-size: 25px;
+  padding: 5px 0;
+  font-weight: 600;
+  color:#006200;
+}
+.cat-content p{
+  font-size: 16px;
+  font-weight: 700;
+  color: #006200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scale-hover{
+  overflow: hidden;
+
+}
+.scale-hover img{
+  transition: all 0.5s ease-in-out;
+  transform: scale(1);
+}
+
+.scale-hover:hover img{
+  transform: scale(1.2);
+}
+/**==========================
+    Catregory Section End
 ============================*/
