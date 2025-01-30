@@ -17,16 +17,16 @@ img {
   width: 100%;
   height: 100%;
 }
-.section-padding{
-  padding: 50px 0
+.section-padding {
+  padding: 50px 0;
 }
 .bg-primary {
   background-color: #006200;
   color: #fff;
 }
 
-.btn-group{
-  margin: 30px 0
+.btn-group {
+  margin: 30px 0;
 }
 
 .btn {
@@ -36,14 +36,13 @@ img {
   font-size: 15px;
   color: #fff;
   text-shadow: 1px 1px 5px #000;
-
 }
-.btn-transparent{
+.btn-transparent {
   background: transparent;
   border: 2px solid #01cb77;
-  color: #01cb77
+  color: #01cb77;
 }
-.btn-master{
+.btn-master {
   background-color: #01cb77;
   border: 2px solid #01cb77;
 }
@@ -113,7 +112,6 @@ img {
   font-weight: 500;
   font-family: "Oswald", serif;
   width: 100%;
-
 }
 
 .menu .menu-item {
@@ -123,7 +121,6 @@ img {
   transition: 0.5s all ease;
   width: 100%;
   box-sizing: border-box;
- 
 }
 
 .menu .menu-item:hover,
@@ -135,7 +132,6 @@ img {
 .dropdown {
   position: relative;
   width: 100%;
-
 }
 
 .dropdown i {
@@ -166,7 +162,6 @@ img {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  
 }
 
 .submenu a:hover {
@@ -206,29 +201,27 @@ img {
 /**==========================
     slider Section Start
 ============================*/
-.slide-container{
+.slide-container {
   position: relative;
-  
 }
 
-.slideItem{
+.slideItem {
   width: 100%;
   height: 250px;
   display: block;
   position: relative;
 }
 
-
-.slideItem img{
+.slideItem img {
   width: 100%;
   height: 100%;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 10;
   display: flex;
   left: 0;
@@ -237,17 +230,15 @@ img {
   align-items: center;
 }
 
-.hero-content{
+.hero-content {
   color: #fff;
-  
 }
-.hero-content h2{
+.hero-content h2 {
   font-size: 25px;
-  font-family: 'Bevan', serif;
+  font-family: "Bevan", serif;
   margin: 10px 0;
-
 }
-.best-course{
+.best-course {
   display: inline-block;
   background-color: #01bc77;
   padding: 5px 10px;
@@ -255,13 +246,13 @@ img {
   text-shadow: 1px 0 1px #000;
   margin: 5px 0;
 }
-.hero-content p{
+.hero-content p {
   font-size: 14px;
   margin: 10px 0;
 }
 
-.btn-group{
-  margin: 30px 0
+.btn-group {
+  margin: 30px 0;
 }
 
 .btn {
@@ -272,16 +263,16 @@ img {
   color: #fff;
   text-shadow: 1px 1px 5px #000;
 }
-.btn-transparent{
+.btn-transparent {
   background: transparent;
   border: 2px solid #01cb77;
-  color: #01cb77
+  color: #01cb77;
 }
-.btn-master{
+.btn-master {
   background-color: #01cb77;
 }
 
-.slide-container .owl-nav{
+.slide-container .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -304,7 +295,7 @@ img {
   align-items: center;
 }
 
-.slide-container .owl-dots .owl-dot{
+.slide-container .owl-dots .owl-dot {
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -312,10 +303,9 @@ img {
   border: 2px solid #01bc77;
   margin: 0 5px;
 }
-.slide-container .owl-dots .owl-dot.active{
+.slide-container .owl-dots .owl-dot.active {
   background-color: #01bc77;
 }
-
 
 /**==========================
     slider Section End
@@ -324,39 +314,41 @@ img {
 /**==========================
     Service Section End
 ============================*/
-.service-item{
+.service-item {
   text-align: center;
   background-color: #dcfff3db;
-  transform:translateY(0px);
+  transform: translateY(0px);
   transition: 0.5s all ease;
   padding-top: 30px;
   border-radius: 5px;
 }
 
-.service-item i{
+.service-item i {
   font-size: 70px;
   color: #01cb77;
   padding: 10px;
 }
 
-.service-item h4{
+.service-item h4 {
   padding: 10px 0;
   font-size: 20px;
   color: green;
   font-weight: 800;
 }
 
-.service-item p{
+.service-item p {
   font-size: 16px;
   padding: 0px 30px 25px;
   color: #026d49;
 }
-.service-item:hover{
+.service-item:hover {
   background-color: #01cb77;
   transform: translateY(-20px);
 }
 
-.service-item:hover h4, .service-item:hover p, .service-item:hover i{
+.service-item:hover h4,
+.service-item:hover p,
+.service-item:hover i {
   color: #fff;
 }
 /**==========================
@@ -366,11 +358,11 @@ img {
 /**==========================
     About Section Start
 ============================*/
-.section-title{
+.section-title {
   text-align: center;
 }
 
-.section-title h4{
+.section-title h4 {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
@@ -379,23 +371,21 @@ img {
   padding: 0 10px;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Oswald', serif;
-
+  font-family: "Oswald", serif;
 }
 
-.section-title h4::before{
+.section-title h4::before {
   position: absolute;
   content: "";
   width: calc(100% + 80px);
-  height: 2px;;
+  height: 2px;
   top: 4px;
   left: -40px;
   z-index: -1;
   background-color: #01bc77;
-  
 }
 
-.section-title h4::after{
+.section-title h4::after {
   position: absolute;
   content: "";
   width: calc(100% + 120px);
@@ -406,16 +396,15 @@ img {
   background-color: #01bc77;
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 40px;
   font-family: "Bevan", serif;
   font-weight: 400;
   color: #01bc77;
   margin: 20px 0;
-
 }
 
-.about-content p{
+.about-content p {
   font-size: 16px;
   color: #004725;
   padding: 15px 5px;
@@ -426,20 +415,20 @@ img {
   list-style: none;
   margin: 0px;
 }
-.about-list li i{
+.about-list li i {
   padding-right: 5px;
 }
-.about-content li{
+.about-content li {
   padding: 5px 0;
 }
 
-.about-content .btn{
+.about-content .btn {
   padding: 10px 15px;
   margin: 5px 0;
-  text-align:center;
+  text-align: center;
 }
 
-.about-content .btn-group{
+.about-content .btn-group {
   text-align: center;
 }
 /**==========================
@@ -449,44 +438,45 @@ img {
 /**==========================
     Catregory Section Start
 ============================*/
-.category-item{
+.category-item {
   position: relative;
 }
 
-.category-item .cat-content{
+.category-item .cat-content {
   position: absolute;
   width: 200px;
   height: 50px;
-  right: 0;bottom: 4px;background-color: #c7f8dc;
+  right: 0;
+  bottom: 4px;
+  background-color: #c7f8dc;
   padding: 5px;
   display: inline-block;
   border-radius: 5px 5px 0px 5px;
   text-align: center;
 }
-.cat-content h4{
+.cat-content h4 {
   font-size: 25px;
   padding: 5px 0;
   font-weight: 600;
-  color:#006200;
+  color: #006200;
 }
-.cat-content p{
+.cat-content p {
   font-size: 16px;
   font-weight: 700;
   color: #006200;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.scale-hover{
+.scale-hover {
   overflow: hidden;
-
 }
-.scale-hover img{
+.scale-hover img {
   transition: all 0.5s ease-in-out;
   transform: scale(1);
 }
 
-.scale-hover:hover img{
-  transform: scale(1.2);
+.scale-hover:hover img {
+  transform: scale(1.1);
 }
 /**==========================
     Catregory Section End
@@ -495,97 +485,145 @@ img {
 /**==========================
     Courses Section Start
 ============================*/
-.popular-item{
-  transition:0.5s all ease;
+.popular-item {
+  transition: 0.5s all ease;
   background-color: #c7f8dc;
   text-align: center;
   border-radius: 5px;
 }
 
-.popular-item:hover{
+.popular-item:hover {
   box-shadow: 1px 1px 5px #000;
 }
 
-.popular-item .popular-img{
+.popular-item .popular-img {
   overflow: hidden;
   position: relative;
   /* box-sizing: border-box; */
 }
-.popular-item .btn-group{
-position:absolute;
-width: 250px;
-height: 45px;
-top: 70%;
-left: 50%;
-transform: translate(-50%, -70%);
-background-color: #00bc77;
-text-align: center;
-line-height: 45px;
-border-radius: 15px;
-z-index: 1;
+.popular-item .btn-group {
+  position: absolute;
+  width: 250px;
+  height: 45px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  background-color: #00bc77;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 15px;
+  z-index: 1;
 }
 
-.popular-item .btn-group .btn{
-  border:none;
+.popular-item .btn-group .btn {
+  border: none;
   background-color: transparent;
   color: #fff;
   border-right: 3px solid #fff;
-  padding: 10px ;
+  padding: 10px;
   font-size: 16px;
 }
 
-.popular-item .btn-group .btn:last-child{
+.popular-item .btn-group .btn:last-child {
   border-right: none;
 }
 
-.popular-content h3{
+.popular-content h3 {
   font-size: 30px;
   font-family: "Bevan", serif;
-  color:#006200;
+  color: #006200;
   padding: 15px 0;
-
 }
 
-.popular-content .course-star-count{
+.popular-content .course-star-count {
   display: flex;
   justify-content: center;
 }
-.course-star  i{
+.course-star i {
   color: #ffb100;
   font-size: 20px;
   padding: 10px 0;
 }
-.course-star-count span{
+.course-star-count span {
   padding: 10px 5px;
   font-size: 20px;
 }
 
-.popular-content h4{
+.popular-content h4 {
   font-size: 25px;
   font-family: "Bevan", serif;
-  color:#006200;
+  color: #006200;
   padding: 15px 0;
-  
 }
 
 .course-info {
   background-color: #01bc77;
   padding: 10px 0;
-  border-top: 2px solid #ffF;
+  border-top: 2px solid #fff;
 }
 
-.course-info span{
+.course-info span {
   border-right: 2px solid #fff;
   padding: 10px;
-  color:#fff;
+  color: #fff;
   font-weight: 600;
 }
 
-.course-info span:last-child{
+.course-info span:last-child {
   border-right: 0;
 }
 
-
 /**==========================
     Courses Section End
+============================*/
+.instructor-item {
+  text-align: center;
+  background-color: #cdffec;
+  z-index: 5;
+}
+
+.instructor-item .instructor-img {
+  position: relative;
+}
+
+.instructor-img .social-media {
+  position: absolute;
+  width: 25%;
+  height: 35px;
+  left: 50%;
+  bottom: 0px;
+  padding: 3px;
+  /* background-color: #cdffec; */
+  transform: translateX(-50%);
+  z-index: 10px;
+}
+
+.instructor-img .social-media i {
+  font-size: 25px;
+  color: #006200;
+  width: 30px;
+  height: 30px;
+  background-color: #cdffec;
+  line-height: 26px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.instructor-item .instructor-content {
+  padding: 15px 0;
+}
+
+.instructor-item .instructor-content h4 {
+  font-size: 30px;
+  color: #006200;
+  padding: 5px 0;
+  font-family: "Bevan", serif;
+}
+
+.instructor-item .instructor-content p {
+  font-size: 20px;
+  color: #006200;
+}
+/**==========================
+    Instructor Section Start
 ============================*/

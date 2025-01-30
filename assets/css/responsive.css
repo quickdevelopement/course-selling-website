@@ -1,40 +1,39 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .mobile-menu{
-    display: block
+  .mobile-menu {
+    display: block;
   }
-  .navigation{
+  .navigation {
     display: none;
   }
-  .toggle{
+  .toggle {
     display: inline-flex;
   }
-  .btn{
+  .btn {
     margin-left: 0;
-  padding: 5px;
-  font-size: 12px;
+    padding: 5px;
+    font-size: 12px;
   }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .navigation{
+  .navigation {
     display: none;
   }
-  .toggle{
+  .toggle {
     display: inline-flex;
   }
-  .mobile-menu{
-    display: block
+  .mobile-menu {
+    display: block;
   }
-  .btn{
+  .btn {
     margin-left: 0;
     padding: 5px;
     font-size: 12px;
   }
 
-  .about .section-title h2{
+  .about .section-title h2 {
     font-size: 40px;
   }
 
@@ -44,290 +43,294 @@
     height: 40px;
     line-height: 40px;
     border-radius: 10px;
-}
-.popular-item .btn-group .btn {
-  font-size: 14px;
-}
+  }
+  .popular-item .btn-group .btn {
+    font-size: 14px;
+  }
   .course-star i {
     font-size: 16px;
     padding: 5px 0;
-}
-.course-star-count span {
-  padding: 5px 5px;
-  font-size: 16px;
-}
+  }
+  .course-star-count span {
+    padding: 5px 5px;
+    font-size: 16px;
+  }
   .course-info span {
     padding: 10px 5px;
     font-size: 11px;
-}
+  }
+
+  /* instructor section  */
+  .instructor-img .social-media {
+    width: 42%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .mobile-menu{
-    display: none
+  .mobile-menu {
+    display: none;
   }
-  .logo a img{
+  .logo a img {
     width: 55px;
   }
-  .log a h2{
+  .log a h2 {
     font-size: 30px;
   }
 
-  .navbar{
+  .navbar {
     flex-direction: row;
-    
   }
 
-  .navigation{
+  .navigation {
     display: flex;
     flex-direction: row;
   }
-    
-  .menu{
+
+  .menu {
     flex-direction: row;
     align-items: center;
   }
-  
-  .menu .menu-item{
+
+  .menu .menu-item {
     text-align: center;
     padding: 30px 10px;
     font-size: 16px;
   }
 
   .menu .menu-item:hover,
-.menu .menu-item.active {
-  background-color: transparent;
-  color: #01bc77;
-}
+  .menu .menu-item.active {
+    background-color: transparent;
+    color: #01bc77;
+  }
 
-.navigation .btn-menu{
-  width: 150px;
-  font-size: 16px;
+  .navigation .btn-menu {
+    width: 150px;
+    font-size: 16px;
+  }
+  .submenu {
+    width: 200px;
+    top: 100%;
+  }
 
-}
-.submenu{
-  width: 200px;
-  top: 100%;
-}
+  .btn {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .slideItem {
+    height: 300px;
+  }
 
+  .hero-content h2 {
+    font-size: 30px;
+  }
+  .best-course {
+    padding: 8px 12px;
+    margin: 8px 0;
+  }
+  .hero-content p {
+    font-size: 15px;
+  }
 
-.btn{
-  margin-left: 5px;
-  padding: 10px;
-  font-size: 14px;
-}
-.slideItem{
-  height: 300px;
-}
+  /* about section */
+  .about .section-title {
+    text-align: left;
+  }
 
-.hero-content h2{
-  font-size: 30px;
+  .about .section-title h4::before {
+    width: calc(100% + 35px);
+    left: 0px;
+  }
 
-}
-.best-course{
-  padding: 8px 12px;
-  margin: 8px 0;
-}
-.hero-content p{
-  font-size: 15px;
-}
+  .about .section-title h4::after {
+    width: calc(100% + 60px);
+    left: 0px;
+  }
 
+  .about .section-title h2 {
+    font-size: 50px;
+  }
 
-/* about section */
-.about .section-title {
-  text-align: left;
-}
+  .about .about-content p {
+    font-size: 18px;
+    padding: 20px 5px;
+  }
+  .about .about-content .about-list li {
+    font-size: 18px;
+  }
+  .about-content .btn-group {
+    text-align: left;
+  }
 
-.about .section-title h4::before{
-  width: calc(100% + 35px);
-  left: 0px;
-}
+  .img-4-h {
+    height: 350px;
+  }
 
-.about .section-title h4::after{
-  width: calc(100% + 60px);
-  left: 0px;
-}
+  .cat-content.cat-content-sm {
+    width: 140px;
+    height: 50px;
+  }
 
-.about .section-title h2{
-  font-size: 50px;
-}
+  .cat-content.cat-content-sm h4 {
+    font-size: 20px;
+  }
 
-.about .about-content p{
-  font-size: 18px;
-  padding:20px 5px
-}
-.about .about-content .about-list li{
-  font-size: 18px;
-}
-.about-content .btn-group{
-  text-align: left;
-}
+  /* course section  */
+  .popular-item .btn-group {
+    width: 220px;
+    height: 42px;
+    line-height: 42px;
+  }
+  .popular-item .btn-group .btn {
+    font-size: 15px;
+  }
+  .course-star i {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .course-star-count span {
+    padding: 8px 5px;
+    font-size: 16px;
+  }
+  .course-info span {
+    padding: 10px 5px;
+    font-size: 13px;
+  }
 
-.img-4-h{
-  height: 350px;
+  /* .instructor section  */
+  .instructor-img .social-media {
+    width: 50%;
+  }
 }
-
-.cat-content.cat-content-sm{
-  width: 140px;
-  height: 50px;
-}
-
-.cat-content.cat-content-sm h4{
-  font-size: 20px;
-}
-
-/* course section  */
-.popular-item .btn-group {
-  width: 220px;
-  height: 42px;
-  line-height: 42px;
-}
-.popular-item .btn-group .btn {
-font-size: 15px;
-}
-.course-star i {
-  font-size: 16px;
-  padding: 5px 0;
-}
-.course-star-count span {
-padding: 8px 5px;
-font-size: 16px;
-}
-.course-info span {
-  padding: 10px 5px;
-  font-size: 13px;
-}
-}
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .logo a img{
+  .logo a img {
     width: 70px;
   }
-  .log a h2{
+  .log a h2 {
     font-size: 35px;
   }
 
-  .menu .menu-item{
+  .menu .menu-item {
     padding: 35px 15px;
     font-size: 18px;
   }
-  .navigation .btn-menu{
+  .navigation .btn-menu {
     width: 170px;
     font-size: 18px;
-  
   }
-  .btn{
+  .btn {
     margin-left: 5px;
     padding: 15px;
     font-size: 16px;
   }
 
-  .slideItem{
+  .slideItem {
     height: 350px;
   }
 
-  .hero-content h2{
+  .hero-content h2 {
     font-size: 35px;
-  
   }
-  .best-course{
+  .best-course {
     padding: 10px 15px;
     margin: 10px 0;
   }
-  .hero-content p{
+  .hero-content p {
     font-size: 16px;
   }
 
-  .img-4-h{
+  .img-4-h {
     height: 450px;
   }
-  .cat-content.cat-content-sm{
+  .cat-content.cat-content-sm {
     width: 200px;
     height: 55px;
   }
-  
-  .cat-content.cat-content-sm h4{
+
+  .cat-content.cat-content-sm h4 {
     font-size: 25px;
   }
 
   /* course section  */
-.popular-item .btn-group {
-  width: 250px;
-  height: 45px;
-  line-height: 45px;
-}
-.popular-item .btn-group .btn {
-font-size: 16px;
-}
-.course-star i {
-  font-size: 18px;
-  padding: 10px 0;
-}
-.course-star-count span {
-padding: 10px 5px;
-font-size: 18px;
-}
-.course-info span {
-  padding: 10px 5px;
-  font-size: 14px;
-}
+  .popular-item .btn-group {
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+  }
+  .popular-item .btn-group .btn {
+    font-size: 16px;
+  }
+  .course-star i {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  .course-star-count span {
+    padding: 10px 5px;
+    font-size: 18px;
+  }
+  .course-info span {
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+
+  /* Instructor Section  */
+  .instructor-img .social-media {
+    width: 52%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-  .logo a img{
+  .logo a img {
     width: 80px;
   }
-  .log a h2{
+  .log a h2 {
     font-size: 45px;
   }
 
-  .menu .menu-item{
+  .menu .menu-item {
     padding: 40px 20px;
     font-size: 20px;
   }
-  .navigation .btn-menu{
+  .navigation .btn-menu {
     width: 200px;
     font-size: 20px;
-  
   }
 
-  .btn{
+  .btn {
     margin-left: 8px;
     padding: 18px;
     font-size: 18px;
   }
-  .slideItem{
+  .slideItem {
     height: 400px;
   }
 
-  .hero-content h2{
+  .hero-content h2 {
     font-size: 45px;
-  
   }
-  .best-course{
+  .best-course {
     padding: 10px 20px;
     margin: 10px 0;
   }
-  .hero-content p{
+  .hero-content p {
     font-size: 18px;
   }
 
   /* category */
-  .img-4-h{
+  .img-4-h {
     height: 620px;
   }
 
-  .cat-content{
+  .cat-content {
     width: 250px;
     height: 70px;
   }
-  
-  .cat-content h4{
+
+  .cat-content h4 {
     font-size: 25px;
   }
 }
