@@ -625,5 +625,74 @@ img {
   color: #006200;
 }
 /**==========================
-    Instructor Section Start
+    Instructor Section End
+============================*/
+
+/**==========================
+    Testimonial Section Start
+============================*/
+.testimonial-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.testimonial-item .testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #01bc77;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimonial-item .testimonial-name {
+  padding: 10px 0;
+}
+.testimonial-item .testimonial-name h4 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Bevan", serif;
+  color: #006200;
+}
+.testimonial-item .testimonial-name p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #01bc77;
+}
+
+.testimonial-item .testimonial-content {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.testimonial .testimonial-carousel .owl-dots.disabled {
+  display: block;
+}
+
+.testimonial .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.testimonial .owl-dots .owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
+  border: 1px solid #006200;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 5px;
+}
+
+.testimonial .owl-dots .owl-dot.active {
+  background-color: #006200;
+}
+
+/**==========================
+    Testimonial Section end
 ============================*/
