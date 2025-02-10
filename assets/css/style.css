@@ -17,6 +17,13 @@ img {
   width: 100%;
   height: 100%;
 }
+.sticky-top {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background-color: rgb(159, 248, 166);
+}
 .section-padding {
   padding: 50px 0;
 }
@@ -92,7 +99,7 @@ img {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px 20px;
+  padding: 0px 20px;
   box-sizing: border-box;
 }
 
@@ -696,3 +703,180 @@ img {
 /**==========================
     Testimonial Section end
 ============================*/
+
+/**==========================
+    Footer Section Start
+============================*/
+.footer-item-heading h4 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Bevan", serif;
+  padding: 20px 0;
+  font-weight: 700;
+}
+.footer-item-content ul li {
+  list-style: none;
+  color: #fff;
+  padding: 3px 0;
+}
+.footer-item-content li a {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.footer-item-content ul li i {
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+/* Footer Contact  */
+.footer-item-content .social-media {
+  padding: 10px 0;
+}
+.footer-item-content .social-media a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-item-content .social-media a i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+/* Footer Gallery  */
+
+.footer-item-content .gllary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-item-content .gllary img {
+  width: 33%;
+  padding: 1%;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+/* Footer Newsletter   */
+
+.footer-item-content p {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: justify;
+  font-weight: 400;
+}
+.footer-item-content .footer-form form input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #006200;
+}
+
+.footer-item-content .footer-form form {
+  background: #e2fceb;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  position: relative;
+}
+
+.footer-item-content .footer-form form button {
+  background-color: #01bc77;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+/**==========================
+    Footer Section end
+============================*/
+
+/**
+*
+============================
+About Page Start
+============================
+*
+**/
+.hero {
+  background-image: url(../images/carousel-2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: max(70vh, 400px);
+  position: relative;
+  z-index: 1;
+}
+.hero-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.hero-content h2 {
+  font-size: 60px;
+  font-family: "Bevan", serif;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+nav.pageNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav.pageNav ol {
+  list-style: none;
+  text-align: center;
+}
+nav.pageNav ol li {
+  position: relative;
+  float: left;
+}
+
+nav.pageNav ol li::before {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 20px;
+  background-color: #fff;
+  transform: rotate(20deg);
+}
+
+nav.pageNav ol li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+nav.pageNav ol li:first-child::before{
+  display: none;
+}
+/**
+*
+============================
+About Page End
+============================
+*
+**/
