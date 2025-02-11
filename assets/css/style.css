@@ -253,7 +253,7 @@ img {
   text-shadow: 1px 0 1px #000;
   margin: 5px 0;
 }
-.hero-content p {
+.slideItem .hero-content p {
   font-size: 14px;
   margin: 10px 0;
 }
@@ -814,7 +814,7 @@ About Page Start
   background-image: url(../images/carousel-2.jpg);
   background-size: cover;
   background-position: center;
-  height: max(70vh, 400px);
+  height: max(60vh, 400px);
   position: relative;
   z-index: 1;
 }
@@ -832,7 +832,7 @@ About Page Start
   margin: 0;
   padding: 0;
 }
-.hero-content h2 {
+.hero .hero-content h2 {
   font-size: 60px;
   font-family: "Bevan", serif;
   color: #fff;
@@ -870,13 +870,145 @@ nav.pageNav ol li a {
   text-align: center;
 }
 
-nav.pageNav ol li:first-child::before{
+nav.pageNav ol li:first-child::before {
   display: none;
 }
 /**
 *
 ============================
 About Page End
+============================
+*
+**/
+/**
+*
+============================
+404 Page Start
+============================
+*
+**/
+.not-found-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.not-found-icon i {
+  font-size: 100px;
+  color: #006200;
+}
+
+.not-found-content h2 {
+  font-size: 100px;
+  font-family: "Bevan", serif;
+  margin-bottom: -10px;
+}
+
+.not-found-content p {
+  font-size: 50px;
+  color: #006200;
+  font-family: "Oswald", serif;
+  font-weight: 700;
+  margin: 30px;
+}
+/**
+*
+============================
+404 Page End
+============================
+*
+**/
+/**
+*
+============================
+Contact Page Start
+============================
+*
+**/
+
+.contact-item {
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.contact-text h3 {
+  font-size: 30px;
+  font-family: "Bevan", serif;
+  padding: 5px 0;
+  color: #006200;
+}
+.contact-text p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 5px 0;
+}
+
+.contact-content-group {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.contact-content-group i {
+  width: 50px;
+  height: 50px;
+  background-color: #006200;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.contact-content-group h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #006200;
+  padding: 5px 0;
+  font-weight: 600;
+}
+
+.contact-content-group p {
+  font-size: 16px;
+}
+
+.contact-content-group {
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+/* Form Field  */
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group label {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ccf4d8;
+  font-size: 15px;
+  color: #006200;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+}
+/**
+*
+============================
+Contact Page End
 ============================
 *
 **/
